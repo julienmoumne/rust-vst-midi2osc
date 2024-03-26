@@ -8,7 +8,6 @@ sends them over the network using the OSC protocol.
 While fully functional, it is meant to be used as a template :
 - not all MIDI events are intercepted
 - OSC server address is hardcoded
-- OSC message paths are arbitrary 
 - binaries are not published, see `How to use in a DAW`
 
 # Why 
