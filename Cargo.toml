@@ -1,0 +1,12 @@
+[package]
+name = "rust-vst-midi2osc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug", tag ="spectral-compressor-0.4.3"}
+nih_plug_xtask = { git = "https://github.com/robbert-vdh/nih-plug", tag ="spectral-compressor-0.4.3"}
+rosc = "0.10.1"
+
+[lib]
+crate-type = ["cdylib"]
